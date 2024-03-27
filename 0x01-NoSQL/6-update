@@ -1,0 +1,7 @@
+// Adds a new attribute to a document in the school collection
+db.school.update(
+    // Filter criteria
+    // Update operation
+    { name: "Holberton school" },
+    {$set: {address: "972 Mission street" } }
+)
