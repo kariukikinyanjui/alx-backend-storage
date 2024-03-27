@@ -3,4 +3,4 @@
 
 
 def list_all(mongo_collection):
-    return list[entry for entry in mongo_collection.find()]
+    return [entry for entry in mongo_collection.find()]
