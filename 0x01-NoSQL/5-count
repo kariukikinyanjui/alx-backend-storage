@@ -1,2 +1,2 @@
 // Displays the number of documents in the school collection
-print(db.schoo.count())
+db.schoo.count()
